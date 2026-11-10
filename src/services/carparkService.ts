@@ -6,7 +6,7 @@ const STORAGE_KEY_FAVORITES = 'park_sg_favorites';
 
 export const DEFAULT_BACKEND_CONFIG: BackendConfig = {
   mode: 'built-in',
-  customApiUrl: '/api/v1/carparks',
+  customApiUrl: '/api/carparkavailability?format=transformed&fetchAll=true',
   autoRefreshIntervalSec: 30,
   isLivePolling: true,
 };
